@@ -1,0 +1,10 @@
+{
+  "name": "mywebsite",
+  "version": "0.1.0",
+  "description": "The frontend markup of Neill Robson's personal (resume/blog) website",
+  "author": "Neill Robson <neillrobson811@gmail.com> (http://neillrobson.com)",
+  "license": "ISC",
+  "scripts": {
+    "test": ""
+  }
+}
