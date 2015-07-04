@@ -5,6 +5,12 @@
   "author": "Neill Robson <neillrobson811@gmail.com> (http://neillrobson.com)",
   "license": "ISC",
   "scripts": {
+    "clean": "rm -rf dist/*",
+
+    "prebuild": "npm run clean -s",
+    "build": "npm run build:markup -s",
+    "build:markup": "cp *.html dist",
+
     "test": ""
   }
 }
