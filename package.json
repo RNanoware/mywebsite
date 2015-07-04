@@ -6,11 +6,12 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm -rf dist/*",
-
     "prebuild": "npm run clean -s",
     "build": "npm run build:markup -s",
     "build:markup": "cp *.html dist",
-
     "test": ""
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0"
   }
 }
