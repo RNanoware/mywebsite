@@ -9,7 +9,8 @@
     "prebuild": "npm run clean -s",
     "build": "npm run build:markup -s",
     "build:markup": "cp *.html dist",
-    "test": ""
+    "test": "",
+    "serve": "http-server -p 9090 dist/"
   },
   "devDependencies": {
     "http-server": "^0.8.0"
