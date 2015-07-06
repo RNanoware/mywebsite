@@ -1,3 +1,23 @@
 body
+    margin: 0
     color: #333
     background-color: #ccc
+    > header
+        position: fixed
+#splash
+    height: 100%
+    background-color: #333
+    color: #ccc
+    /*
+     * Aligns the text in the center of the screen vertically
+     * using a pseudo-element right before the content
+     */
+    text-align: center
+    &:before
+        content: ''
+        display: inline-block
+        height: 100%
+        vertical-align: middle
+    div
+        display: inline-block
+        vertical-align: middle
