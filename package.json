@@ -13,7 +13,8 @@
     "test": "",
     "watch": "npm run watch:build",
     "watch:build": "nodemon --watch src --ext '.' --exec 'npm run build'",
-    "serve": "http-server -p 9090 dist/"
+    "serve": "http-server -p 9090 dist/",
+    "dev": "parallelshell 'npm run watch' 'npm run serve'"
   },
   "devDependencies": {
     "http-server": "^0.8.0",
