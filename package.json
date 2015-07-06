@@ -6,11 +6,17 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm -rf dist/*",
+
     "prebuild": "npm run clean -s",
     "build": "npm run build:markup -s && npm run build:style -s",
     "build:markup": "cp src/markup/* dist/",
     "build:style": "mkdir dist/css && stylus src/style/* -o dist/css/",
+
     "test": "",
+
+    "watch": "npm run watch:build",
+    "watch:build": "nodemon --watch src --ext '.' --exec 'npm run build'",
+
     "serve": "http-server -p 9090 dist/"
   },
   "devDependencies": {
