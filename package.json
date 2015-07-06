@@ -8,7 +8,7 @@
     "clean": "rm -rf dist/*",
     "prebuild": "npm run clean -s",
     "build": "npm run build:markup -s",
-    "build:markup": "cp *.html dist",
+    "build:markup": "cp src/markup/* dist",
     "test": "",
     "serve": "http-server -p 9090 dist/"
   },
