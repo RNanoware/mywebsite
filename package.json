@@ -13,6 +13,7 @@
     "serve": "http-server -p 9090 dist/"
   },
   "devDependencies": {
-    "http-server": "^0.8.0"
+    "http-server": "^0.8.0",
+    "stylus": "^0.51.1"
   }
 }
