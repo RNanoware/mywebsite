@@ -7,8 +7,9 @@
   "scripts": {
     "clean": "rm -rf dist/*",
     "prebuild": "npm run clean -s",
-    "build": "npm run build:markup -s",
-    "build:markup": "cp src/markup/* dist",
+    "build": "npm run build:markup -s && npm run build:style -s",
+    "build:markup": "cp src/markup/* dist/",
+    "build:style": "mkdir dist/css && stylus src/style/* -o dist/css/",
     "test": "",
     "serve": "http-server -p 9090 dist/"
   },
