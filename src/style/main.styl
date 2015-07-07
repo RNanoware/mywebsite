@@ -7,6 +7,11 @@ html
 *, *:before, *:after
     box-sizing: inherit
 
+// Remove all default link styling
+a
+    color: inherit
+    text-decoration: inherit
+
 body
     margin: 0
     color: colorDark
@@ -24,10 +29,12 @@ nav
     li
         float: left
         margin: 0 10px
-        padding: 10px 15px
-        border-radius: 5px
-        background-color: colorLight
-        color: colorDark
+        a
+            display: inline-block
+            padding: 10px 15px
+            border-radius: 5px
+            background-color: colorLight
+            color: colorDark
 #splash
     height: 100%
     background-color: colorDark
