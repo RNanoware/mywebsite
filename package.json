@@ -8,7 +8,7 @@
     "clean": "rm -rf dist/*",
     "prebuild": "npm run clean -s",
     "build": "npm run build:markup -s && npm run build:style -s && npm run build:res -s",
-    "build:res": "cp -R Font-Awesome dist/",
+    "build:res": "cp -R Font-Awesome dist/ && cp -R font dist/",
     "build:markup": "cp src/markup/* dist/",
     "build:style": "mkdir dist/css && stylus src/style/* -o dist/css/",
     "test": "",

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Charter';
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('EOT/Charter-BoldItalic.eot') format('embedded-opentype'),
+         url('WOFF/Charter-BoldItalic.woff') format('woff'),
+         url('OTF/Charter-BoldItalic.otf') format('opentype'),
+         url('TTF/Charter-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Charter';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('EOT/Charter-Bold.eot') format('embedded-opentype'),
+         url('WOFF/Charter-Bold.woff') format('woff'),
+         url('OTF/Charter-Bold.otf') format('opentype'),
+         url('TTF/Charter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Charter';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('EOT/Charter-Italic.eot') format('embedded-opentype'),
+         url('WOFF/Charter-Italic.woff') format('woff'),
+         url('OTF/Charter-Italic.otf') format('opentype'),
+         url('TTF/Charter-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Charter';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('EOT/Charter-Regular.eot') format('embedded-opentype'),
+         url('WOFF/Charter-Regular.woff') format('woff'),
+         url('OTF/Charter-Regular.otf') format('opentype'),
+         url('TTF/Charter-Regular.ttf') format('truetype');
+}
