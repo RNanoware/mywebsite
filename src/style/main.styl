@@ -1,9 +1,11 @@
-colorLight = #F5F5F5
-colorDark = #4D4D4C
-colorBlue = #005F87
+colorLight = #FFFFFF
+colorDark = #282D32
+colorBody = #5B5B5F
+colorHighlight = #C0392B
+colorNotice = #FFFBF5
 
 // Font definitions
-@import url('http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700|Lato:400,400italic,700');
+@import url('http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Lato:400,400italic,700,900');
 h1, h2, h3, h4, h5, h6
     font-family: 'Lato', sans-serif
 html
@@ -22,7 +24,9 @@ a
 
 body
     margin: 0
-    color: colorDark
+    color: colorBody
+    h1, h2, h3, h4, h5, h6
+        color: colorDark
     background-color: colorLight
     > header
         position: fixed
@@ -45,13 +49,15 @@ nav
             display: inline-block
             padding: 10px 15px
             border-radius: 5px
-            background-color: colorLight
-            color: colorDark
+            color: colorLight
+            &.highlight
+                background-color: colorHighlight
 #splash
     height: 100%
     position: relative
-    background-color: colorBlue
-    color: colorLight
+    background-color: colorDark
+    *
+        color: colorLight
     div
         height: 100%
         display: flex
