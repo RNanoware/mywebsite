@@ -29,16 +29,11 @@ a
     color: inherit
     text-decoration: inherit
 
-// Set header styling
-h1
-    font-size: 2em
-h2
-    font-size: 1.5em
-    font-weight: 400
-
+// HOMEPAGE STYLES
 body
     margin: 0
     color: colorBody
+    font-size: 20px
     h1, h2, h3, h4, h5, h6
         color: colorDark
     background-color: colorLight
@@ -88,3 +83,43 @@ nav
         max-width: 48px
         margin: 10px auto
         font-size: 48px
+#skills
+    div
+        padding: 0 20px
+        font-size: 20px
+        header
+            font-size: 1.25em
+    .me ul
+        list-style-type: none
+        font-weight: 300
+        font-size: 1.5em
+        li
+            padding-bottom: 20px
+        em
+            display: block
+            font-weight: 500
+            font-variant: small-caps
+            font-size: 0.67em
+            &.zh
+                font-weight: 700
+            padding-left: 20px
+    .you ul
+        list-style: none
+        li
+            padding-bottom: 20px
+        li::before
+            font-family: 'FontAwesome'
+            content: '\f00c'
+            margin: 0 0.5em 0 -1.5em
+
+// GENERAL STYLES
+h1
+    font-size: 3em
+h2
+    font-size: 2em
+h1, h2, h3, h4, h5, h6
+    text-align: center
+pre, code
+    background-color: rgba(0,0,0,0.1)
+    border-radius: 2px
+    padding: 0 2px
