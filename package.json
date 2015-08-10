@@ -7,10 +7,11 @@
   "scripts": {
     "clean": "rm -rf dist/*",
     "prebuild": "npm run clean -s",
-    "build": "npm run build:markup -s && npm run build:style -s && npm run build:res -s",
+    "build": "npm run build:markup -s && npm run build:style -s && npm run build:res -s && npm run build:script -s",
     "build:res": "cp -R Font-Awesome dist/ && cp -R font dist/",
     "build:markup": "cp src/markup/* dist/",
     "build:style": "mkdir dist/css && stylus src/style/* -o dist/css/",
+    "build:script": "mkdir dist/js && cp src/script/* dist/js/",
     "test": "",
     "watch": "npm run watch:build",
     "watch:build": "nodemon --watch src --ext '.' --exec 'npm run build'",
