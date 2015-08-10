@@ -7,8 +7,16 @@ colorNotice = #FFFBF5
 // Font definitions. Font-face CSS files are imported in HTML head.
 h1, h2, h3, h4, h5, h6
     font-family: 'Fira Sans', sans-serif
+pre
+    font-family: 'Source Code Pro'
 html
     font-family: 'Charter', serif
+.serif
+    font-family: 'Charter', serif
+.sans
+    font-family: 'Fira Sans', sans-serif
+.mono
+    font-family: 'Source Code Pro'
 
 // Set default width calculation to border-box for all elements
 html
@@ -20,6 +28,13 @@ html
 a
     color: inherit
     text-decoration: inherit
+
+// Set header styling
+h1
+    font-size: 2em
+h2
+    font-size: 1.5em
+    font-weight: 400
 
 body
     margin: 0
@@ -59,6 +74,7 @@ nav
         color: colorLight
     div
         height: 100%
+        padding: 0 20px
         display: flex
         flex-flow: column nowrap
         justify-content: center
