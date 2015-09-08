@@ -39,27 +39,35 @@ body
     background-color: colorLight
     > header
         position: fixed
-        color: colorLight
         width: 100%
-        padding: 15px
-header
-    position: relative
-    z-index: 1000
+        z-index: 1000
+        .headerdiv
+            overflow: hidden
+            .headerdivinner
+                display: flex
+                justify-content: flex-end
+                padding: 15px
+                &.dark
+                    color: colorLight
+                    background: linear-gradient(colorDark, rgba(0,0,0,0))
+                &.light
+                    color: colorDark
+                    background: linear-gradient(colorLight, rgba(0,0,0,0))
+                    transform: translateY(-100%)
 nav
-    float: right
     ul
         margin: 0
         padding: 0
         list-style-type: none
+        display: flex
     li
-        float: left
         margin: 0 10px
         a
             display: inline-block
             padding: 10px 15px
             border-radius: 5px
-            color: colorLight
             &.highlight
+                color: colorLight
                 background-color: colorHighlight
 #splash
     height: 100%
