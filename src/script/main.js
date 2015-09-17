@@ -8,7 +8,6 @@ $(window).scroll(function() {
     } else {
         var percentChange = 0;
     }
-    console.log(percentChange);
     $(".headerdiv").css("transform", "translateY(-" + percentChange + "%" + ")");
     $(".headerdivinner.dark").css("transform", "translateY(" + percentChange + "%" + ")");
     $(".headerdivinner.light").css("transform", "translateY(" + (percentChange - 100) + "%" + ")");
