@@ -17,7 +17,7 @@
     "watch:build": "nodemon --watch src --ext '.' --exec 'npm run build'",
     "serve": "http-server -p 9090 dist/",
     "dev": "parallelshell 'npm run watch' 'npm run serve'",
-    "deploy": "npm run build && rm -rf /usr/share/nginx/html/* && cp dist/* /usr/share/nginx/html"
+    "deploy": "npm run build && rm -rf /usr/share/nginx/html/* && cp -R dist/* /usr/share/nginx/html"
   },
   "devDependencies": {
     "http-server": "^0.8.0",
