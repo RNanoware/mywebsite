@@ -6,7 +6,7 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm -rf dist/*",
-    "prebuild": "npm run clean -s",
+    "prebuild": "npm run clean -s && git submodule update --init",
     "build": "npm run build:markup -s && npm run build:style -s && npm run build:res -s && npm run build:script -s",
     "build:res": "cp -R res/font dist/ && cp -R res/Font-Awesome dist/font/ && cp -R res/favicon.ico dist/",
     "build:markup": "cp src/markup/* dist/",
