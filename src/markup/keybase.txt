@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/nlrobson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://neillrobson.com
+  * I am nlrobson (https://keybase.io/nlrobson) on keybase.
+  * I have a public key ASCjvsIaTmF42oBwvHE8RU7Gy18gH_ppiWxjgebnxrRUCAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b95f9f3b606ac5477bfab0e877cd9f44948a7d3d93fce1124dd3739d79d7196a0a",
+            "host": "keybase.io",
+            "kid": "0120a3bec21a4e6178da8070bc713c454ec6cb5f201ffa69896c6381e6e7c6b454080a",
+            "uid": "e2de506b4f6f94412f6f5f891e936e19",
+            "username": "nlrobson"
+        },
+        "service": {
+            "hostname": "neillrobson.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1475950981,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1475950953,
+        "hash": "53bc5ab5e071847e5911ca2228cda71ba235da8f0971043ad098919cad2331284a4b9fe91b28a56c617efe42ccb11ed49cd66d6efd4c3b8186e00c02452dc2b1",
+        "seqno": 669646
+    },
+    "prev": "b3ebfba2b455b530d0e47b3871ac786c14c13411938c714283d3482789594659",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgo77CGk5heNqAcLxxPEVOxstfIB/6aYlsY4Hm58a0VAgKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjk1ZjlmM2I2MDZhYzU0NzdiZmFiMGU4NzdjZDlmNDQ5NDhhN2QzZDkzZmNlMTEyNGRkMzczOWQ3OWQ3MTk2YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTNiZWMyMWE0ZTYxNzhkYTgwNzBiYzcxM2M0NTRlYzZjYjVmMjAxZmZhNjk4OTZjNjM4MWU2ZTdjNmI0NTQwODBhIiwidWlkIjoiZTJkZTUwNmI0ZjZmOTQ0MTJmNmY1Zjg5MWU5MzZlMTkiLCJ1c2VybmFtZSI6Im5scm9ic29uIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJuZWlsbHJvYnNvbi5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc1OTUwOTgxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzU5NTA5NTMsImhhc2giOiI1M2JjNWFiNWUwNzE4NDdlNTkxMWNhMjIyOGNkYTcxYmEyMzVkYThmMDk3MTA0M2FkMDk4OTE5Y2FkMjMzMTI4NGE0YjlmZTkxYjI4YTU2YzYxN2VmZTQyY2NiMTFlZDQ5Y2Q2NmQ2ZWZkNGMzYjgxODZlMDBjMDI0NTJkYzJiMSIsInNlcW5vIjo2Njk2NDZ9LCJwcmV2IjoiYjNlYmZiYTJiNDU1YjUzMGQwZTQ3YjM4NzFhYzc4NmMxNGMxMzQxMTkzOGM3MTQyODNkMzQ4Mjc4OTU5NDY1OSIsInNlcW5vIjoxMSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDCdLkndxXZzOt5cOYo8sjfvmeRQdVazoKAT+SrFqrWlPuq6RrdI3lr04px0ugWQXv0l5uXnDRnx424VAjbsLYNqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgY+4AtnotZ1FW4VnPQ7WVVWIYFs5s8kUcbshpGFvVpNmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nlrobson
+
+==================================================================
